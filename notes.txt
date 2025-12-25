@@ -1,0 +1,30 @@
+___Video 3___
+
+1. use import export to use component in onother file
+  -- default import-export
+      -only can export one component
+      syntax - export default componentName
+             - import componentName from "path"
+
+  -- named import-export
+    --can export miltiple component
+      syntax -export componentFunction
+             -import {componentName} from "path"
+
+2. JXS(javascript XML) is html like syntax language.it used in component.it used   to manipulate DOM using js.it is note html inside javascript.
+
+3. i inserted react in my project using vite bundler.
+
+4. React-DOM is utility of react.we insert this when we work on web.
+
+5. always keep first letter of component name in capital latter.
+
+6. we can use component by writing <componentName/>
+
+7. we can use this multiple time
+
+
+
+
+             
+
