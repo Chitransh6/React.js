@@ -33,6 +33,19 @@ __video 4__
 3. in render function jsx code are converted into javascript object
 
 4. createElement are given by the bebal
+   -babel transpiled our react code into js engine or browser understable language
+
+5. parcel is the is the bundler is is very useful for our project;
+    - it handles error for project
+    - use for dignostic
+    - hot page reloading
+    - it builds local host sevver for project
+    - it is very fast for its work
+    - it use cache to build server in faster then previous time
+    - use for image optimization
+    - compress the size of file
+    - transpiled the code for browser
+
 
 
              
