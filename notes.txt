@@ -46,6 +46,25 @@ __video 4__
     - compress the size of file
     - transpiled the code for browser
 
+    __video 5__
+
+1. Hooks these are the inbuild functions that we use in react
+   
+   -- useState => it used to update variables on UI, in general when we udate the verible it does not shows in UI; it makes vary easy veriable updation
+
+     Syntax -  let[state,setState] = useState(initial value)
+              
+              - useState returns a array that has two things
+                 first- current value of veriable
+                 second- function, that moniter the update
+
+2. in this class i made a simple counter project that increase the value of counter by one if i click on add value button and decrease the value of counter by one if i clicks on subValue button and  we show the updation of counter on UI by using useState;
+
+
+
+
+   
+
 
 
              
