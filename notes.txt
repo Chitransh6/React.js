@@ -81,6 +81,27 @@ __video 6__
          3.reuse previously completed work
          4.abort work if it not longer needed
 
+__video 7__
+
+1. we  installed tailwind by vite in react
+
+2. props -> it is the arguments in functions, when we want diffrent data in same components we will pass arguments in component call, as a compone twe can pass object,array,string,veriables, by using props we can make our component dynamic;
+
+   example : 
+            there are a component call Card;
+
+             how to pass argument ->  <Card myname = "chitransh"/>
+            
+             how to use props in card ->  {Props.myname};
+               
+            -so myname will print in each card according to te argument
+
+
+3. default arguments are used by the react when we did not pass the arguments in component call, we cans set the default argument on component defination side
+
+        
+   
+  
 
 
    
