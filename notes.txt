@@ -61,6 +61,26 @@ __video 4__
 2. in this class i made a simple counter project that increase the value of counter by one if i click on add value button and decrease the value of counter by one if i clicks on subValue button and  we show the updation of counter on UI by using useState;
 
 
+__video 6__
+
+1. virtual DOM -> light weight copy of the actual DOM, are created by the 
+                 ReactDOM.createRoot function. 
+                 ..we see on UI is the actual DOM
+                 ..we can not see the virtual DOM it only use for updates  in actual DOM by Reconciliation process.
+
+2. actual DOM -> real dom that we see on UI. all the changes that are appear in actual dom are shown on UI;
+
+3. reconcilation process -> it is the process of appearing all the changes on UI by same stpes like ,making of virtual DOM,diffrentiate the changes in virtual DOM and actual DOM, updating these changes in actual DOM , after these process all the changes are show in UI.
+
+4. differ algorithem -> algo used to diffrentiate actual DOM and virtual DOM
+
+5. React Fiber -> it is the low level architecture that mannage the change in UI. 
+       React Fiber Provide some features-
+         1.pause the work come to it later
+         2.assign priority to diffrent type of work
+         3.reuse previously completed work
+         4.abort work if it not longer needed
+
 
 
    
