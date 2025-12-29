@@ -100,7 +100,9 @@ __video 7__
 3. default arguments are used by the react when we did not pass the arguments in component call, we cans set the default argument on component defination side
 
         
-   
+__video 9__
+
+1.  made a simple background color changer project using usestate,tailwind
   
 
 
