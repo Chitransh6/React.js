@@ -104,7 +104,31 @@ __video 9__
 
 1.  made a simple background color changer project using usestate,tailwind
   
+__video 10__
 
+1. made a Password generator project using hooks like useState, useRef, useCallback, use Effect
+
+2. useRef -> it use to take the ref of any element;
+              it returns the veriable;
+             
+             syntax : const ref = useRef(initial reference);
+
+3.  useEffect -> it used when we want somthing to done after page are loaded; if we want to call some function after any things happens in dependency; 
+              
+             syntax : useEffect(function,[dependency]);
+
+               example : useEffect( ()=>{
+                solve();
+               },[pasword,length,some element]);
+
+ 4. useCallback -> it use to store the cache value of the dependencies 
+                  to make produnction optimal
+
+              syntax : const temp = useCallback(()=>{
+                  function();
+              },[password,length,some elements]);             
+
+  
 
    
 
