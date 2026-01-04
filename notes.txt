@@ -141,6 +141,19 @@ __video 12__
    in this video i have learned how to do nexting in web page using routing
     
 
+__video 13__
+
+1. learn how to use useContext hooks ->
+                                     
+                                     1. createContext 
+                                         example: const userContext = createContext();
+                                     2. provide the data to the provider for this  we use .provider tag
+                                     3. any child element of this provider can exis the data by using usecontext
+                                         example : const user = useContext(userContext)
+
+2. why we use useContext -> if there are multilevel heiraricy in components and we want to share some data to any child without using usecontext we need to share that data to each child in each level and then we can exis the data in userchild.  
+
+so this is not a good practice to write the code so we use createContext at parent that provide data and useContext at child which need that data.                                       
 
 
 
