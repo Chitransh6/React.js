@@ -156,6 +156,19 @@ __video 13__
 so this is not a good practice to write the code so we use createContext at parent that provide data and useContext at child which need that data.                                       
 
 
+__Topics that i learned in react till now__ 
+
+1. react installation by vite
+2. react components
+3. jsx(js_xml)
+4. props
+5. hooks ->  useState,useEffect,useRef,useCallback,useId
+6. createContext - useContext
+7. React Routing
+8. local storage - set and get the value from local storage
+9. api calls
+10. tailwind
 
              
+
 
