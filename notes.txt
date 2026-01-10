@@ -172,3 +172,11 @@ __Topics that i learned in react till now__
              
 
 
+  ---->> React by love babber
+
+1. State lifting -> in react if we want to share arguments to a cildren by parent we can do it by using props. but if we want to share info to parent by children we can do it by using state lifting
+
+---- in this if we want to reflect changes in parent component of state we should initialize the state in parent component and share this state to the children components by using props so all the changes in the state are done by the child component but they also appear in parent,  this is how we share info to the parent component from child component,
+
+this helps to make all the children components connect to each other
+beacause if state are initialized in parent it can shareable by any child.
