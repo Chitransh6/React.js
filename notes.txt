@@ -180,3 +180,62 @@ __Topics that i learned in react till now__
 
 this helps to make all the children components connect to each other
 beacause if state are initialized in parent it can shareable by any child.
+
+
+
+2... useEffect -->>  .it used when we want to do same side effect;
+
+                     . example -  1.data fetch when ui renders
+                                  2.api call when ui renders
+                                  3.showing allert when ui renders
+                                  4. what do do somthing when somthis is change
+
+  syntax ->>   useEffect(()=>{   })
+
+ # there are three type of veriation of useEffect
+
+    1.without dependency array =>     useEffect(()=>{ logic })
+         
+         -> the logic inside the useeffect runs after each ui render 
+   
+    2. with empty dependency array =>  useEffect(()=>{ logic },[])
+     
+         -> the logic inside this will exicute on first ui render only
+  
+    3.with filled dependency array =>  useEffect(()=>{  logic  },[dependencies])
+
+         -> the logic inside this will exicute each time when dependencies changes
+
+
+3. eventhandler -> there are some inbuild event handlers in react
+
+      a. onChange={function reference}         for input filled
+      b. onClick = {function reference}        for button
+      c. onSubmit = {function reference}       for form 
+      d. onMouseOver = {function reference}    for any tag  
+
+      e.t.c. 
+                         
+4. condition rendering -> it used when we want to something render according to the 
+                          condition 
+                          there are three type of condition rendering
+
+              a) if - else  -->    if(condition){ 
+                                     <component1/>
+                                   }
+                                   else {
+                                      <component2/>
+                                   }
+
+
+              b) tarnery ->   (condition) ? <component1/> : <component2/>   
+
+
+              c) logical condition -> (condition && <component1/>)  
+                                      (condition && <component2/>)
+                                                     
+              
+
+                            
+    
+
