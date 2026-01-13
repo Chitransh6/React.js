@@ -234,7 +234,9 @@ beacause if state are initialized in parent it can shareable by any child.
               c) logical condition -> (condition && <component1/>)  
                                       (condition && <component2/>)
                                                      
-              
+5.  React-Route ->>> by using react router we handle multipale pages in our website exampl in navbar about us take us to the about page, contect us page take us to the contect us page, and home button takes us to the home page 
+
+ --> we had made a website by using react rounter
 
                             
     
