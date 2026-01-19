@@ -278,3 +278,9 @@ beacause if state are initialized in parent it can shareable by any child.
 
     
      useSelector, dispatch
+
+8.  useMemo Hook ->>   it use to redunce the time taken by calculation of any task that solve before,  
+
+  stntax -->>> useMemo(()=> function , [dependency])
+ 
+if task on that value perform previously it store that ans and return it on next call do not run the axicute code for same input again and again 
