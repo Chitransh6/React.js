@@ -284,3 +284,13 @@ beacause if state are initialized in parent it can shareable by any child.
   stntax -->>> useMemo(()=> function , [dependency])
  
 if task on that value perform previously it store that ans and return it on next call do not run the axicute code for same input again and again 
+
+9.  useCallback ->> it use to prevent from function recreation
+   
+   when ui rerendered the fnction inside that component recreated that is no needed so for avoiding the function recreation we use useCallback hooks
+
+   syntax -->> useCallback(()=>{
+
+   },[dependency])
+
+  dependencies values changes only when function will recreated
